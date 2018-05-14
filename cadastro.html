@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Dog Rescue - Programa de Resgate e adoçai de animais</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+    <header>
+        <div class="container_main">
+            <nav class="navBar">
+                <label for="menu-toggle" class="label-toggle"></label>
+                <nav class="wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png">
+                        </a>
+                    </div>
+                    <input type="checkbox" id="menu-toggle">
+
+                    </input>
+                    <ul>
+                        <li>
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="resgate.html">Resgate</a>
+                        </li>
+                        <li>
+                            <a href="adote.html">Adote</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                        <li>
+                            <a href="cadastro.html">Cadastro</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                    </ul>
+
+
+                </nav>
+            </nav>
+
+    </header>
+
+
+    <article>
+        <section>
+            <div class="clear_menu">
+            </div>
+
+        </section>
+        <section>
+
+            </br>
+            </br>
+            <form action="" method="post">
+
+                <div class="adote_title">
+                    <h2>Dados Pessoais</h2>
+                </div>
+                <fieldset class="center1">
+
+                    <table cellspacing="10" class="tabela_cadastro">
+                        <tr>
+                            <td>
+                                <label for="nome">Nome: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Nascimento: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" size="2" maxlength="10" value="">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="rg">RG: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="rg" size="13" maxlength="13">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>CPF:</label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="cpf" size="9" maxlength="9">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <br />
+                <!-- ENDEREÇO -->
+                <div class="adote_title">
+                    <h2>Endereço</h2>
+                </div>
+                <fieldset class="center1">
+                    <table cellspacing="10" class="tabela_cadastro">
+
+                        <tr>
+                            <td>
+                                <label for="rua">Rua:</label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="rua">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="bairro">Bairro: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="bairro">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="estado">Estado:</label>
+                            </td>
+                            <td align="left">
+                                <select name="estado">
+                                    <option value="ac">Acre</option>
+                                    <option value="al">Alagoas</option>
+                                    <option value="am">Amazonas</option>
+                                    <option value="ap">Amapá</option>
+                                    <option value="ba">Bahia</option>
+                                    <option value="ce">Ceará</option>
+                                    <option value="df">Distrito Federal</option>
+                                    <option value="es">Espírito Santo</option>
+                                    <option value="go">Goiás</option>
+                                    <option value="ma">Maranhão</option>
+                                    <option value="mt">Mato Grosso</option>
+                                    <option value="ms">Mato Grosso do Sul</option>
+                                    <option value="mg">Minas Gerais</option>
+                                    <option value="pa">Pará</option>
+                                    <option value="pb">Paraíba</option>
+                                    <option value="pr">Paraná</option>
+                                    <option value="pe">Pernambuco</option>
+                                    <option value="pi">Piauí</option>
+                                    <option value="rj">Rio de Janeiro</option>
+                                    <option value="rn">Rio Grande do Norte</option>
+                                    <option value="ro">Rondônia</option>
+                                    <option value="rs">Rio Grande do Sul</option>
+                                    <option value="rr">Roraima</option>
+                                    <option value="sc">Santa Catarina</option>
+                                    <option value="se">Sergipe</option>
+                                    <option value="sp">São Paulo</option>
+                                    <option value="to">Tocantins</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="cidade">Cidade: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="cidade">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="cep">CEP: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="cep" size="5" maxlength="5">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br />
+
+                <!-- DADOS DE LOGIN -->
+                <div class="adote_title">
+                    <h2>Login</h2>
+                </div>
+                <fieldset class="center1">
+                    <table cellspacing="10" class="tabela_cadastro">
+                        <tr>
+                            <td>
+                                <label for="email">E-mail: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="email">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="login">Login de usuário: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="login">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="pass">Senha: </label>
+                            </td>
+                            <td align="left">
+                                <input type="password" name="pass">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="passconfirm">Confirme a senha: </label>
+                            </td>
+                            <td align="left">
+                                <input type="password" name="passconfirm">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br />
+
+                <!-- QUIZZ -->
+                <section>
+                    </br>
+                    </br>
+                    <h2 class="title">Responda as perguntas abaixo: </h2>
+                    </br>
+                    </br>
+                    <h3 class="title">Onde você mora?</h3>
+                    </br>
+                    <div class="one">
+
+                        <div class="box a">
+                            <a>
+                                <img src="images/quizz/casa_cidade.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box b">
+                            <a>
+                                <img src="images/quizz/casa_campo.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box c">
+                            <a>
+                                <img src="images/quizz/casa_ap.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box d">
+                            <a>
+                                <img src="images/quizz/casa_praia.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <h3 class="title">O que gosta de fazer?</h3>
+                    </br>
+                    <div class="two">
+
+                        <div class="box a">
+                            <a>
+                                <img src="images/quizz/computador.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box b">
+                            <a>
+                                <img src="images/quizz/futebol.png" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box c">
+                            <a>
+                                <img src="images/quizz/tv.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box d">
+                            <a>
+                                <img src="images/quizz/bike.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <h3 class="title">Como você se define?</h3>
+                    </br>
+                    <div class="three">
+
+                        <div class="box a">
+                            <a>
+                                <img src="images/quizz/bom_humor.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box b">
+                            <a>
+                                <img src="images/quizz/inteligente.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box c">
+                            <a>
+                                <img src="images/quizz/preguicoso.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box d">
+                            <a>
+                                <img src="images/quizz/baladeiro.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <h3 class="title">Em qual horário se sente mais disposto?</h3>
+                    </br>
+                    <div class="four">
+                        <div class="box a">
+                            <a>
+                                <img src="images/quizz/manha.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box b">
+                            <a>
+                                <img src="images/quizz/tarde.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box c">
+                            <a>
+                                <img src="images/quizz/noite.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box d">
+                            <a>
+                                <img src="images/quizz/madrugada.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <h3 class="title">Você se sente triste atualmente?</h3>
+                    </br>
+                    <div class="five">
+
+                        <div class="box a">
+                            <a>
+                                <img src="images/quizz/triste.png" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box b">
+                            <a>
+                                <img src="images/quizz/feliz.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box c">
+                            <a>
+                                <img src="images/quizz/talvez.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                        <div class="box d">
+                            <a>
+                                <img src="images/quizz/naosei.jpg" width="95%" height="95%">
+                            </a>
+                        </div>
+
+                    </div>
+
+            </form>
+
+            <h2>
+                <span></span>
+            </h2>
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+            <script src="js/index.js"></script>
+
+            </section>
+            <a href="dogcadastro.html">
+                <button class="box-app100"> Completar
+                    <b>Cadastro</b>
+                </button>
+            </a>
+            <br>
+            <br>
+    </article>
+    <footer>
+        <div class="footer_wraper">
+            <div class="footer_row_1">
+                <h3>Localização</h3>
+                <br>
+                <br>
+                <p>Centro de inovação Microsoft ETEPAM</p>
+                <br>
+                <p>Av. João de Barros, Nº 1769 2° andar</p>
+                <br>
+                <p>Espinheiro – Recife-PE</p>
+                <br>
+                <P>CEP:52021-180</P>
+                <br>
+                <p>Fone: 3181-3950</p>
+            </div>
+
+            <div class="footer_row_2">
+                <h2>Precisa de Ajuda?</h2>
+                </br>
+                </br>
+
+                <ul>
+                    <li>
+                        <a href="sobre.html">Sobre nosso projeto</a>
+                    </li>
+                    <li>
+                        <a href="resgate.html">Resgate de animais</a>
+                    </li>
+                    <li>
+                        <a href="adote.html">Adote agora mesmo</a>
+                    </li>
+                    <li>
+                        <a href="cadastro.html">Cadastro e Perfil</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato e Doações</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footer_row_3">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDog-Rescue-Mic-S2B-1364888826958307%2F&tabs=timeline&width=340&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+            <div class="footer_row_4">
+                <a href="instagram.com.br">
+                    <img src="images/nossoinsta.png">
+                </a>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Dog Rescue 2017 - Todos os direitos reservados</p>
+        </div>
+        </div>
+
+    </footer>
+    </div>
+</body>
+
+</html>
